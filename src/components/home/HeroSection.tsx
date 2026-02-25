@@ -37,7 +37,7 @@ export default function HeroSection() {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg sm:text-xl text-gray-200 leading-relaxed mb-8 max-w-2xl">
+          <p className="text-lg sm:text-xl text-gray-200 leading-relaxed mb-8">
             ProStructures builds custom metal buildings across Texas — and we handle everything from steel to concrete, so you never have to manage two contractors. Carports, garages, barns, RV covers, and more.
           </p>
 
