@@ -107,6 +107,7 @@ export default function CarportsPage() {
           { label: 'Carports' },
         ]}
         cta={{ label: 'Get a Free Quote', href: '/contact' }}
+        bgImage="/images/carport-hero.webp"
       />
 
       {/* Intro */}

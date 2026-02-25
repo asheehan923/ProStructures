@@ -11,15 +11,21 @@ interface PageHeroProps {
   breadcrumbs?: Breadcrumb[]
   eyebrow?: string
   cta?: { label: string; href: string }
+  bgImage?: string   // path relative to /public, e.g. "/images/carport-hero.webp"
 }
 
-export default function PageHero({ title, subtitle, breadcrumbs, eyebrow, cta }: PageHeroProps) {
+export default function PageHero({ title, subtitle, breadcrumbs, eyebrow, cta, bgImage }: PageHeroProps) {
   return (
-    <section className="bg-[var(--color-secondary)] text-white">
+    <section
+      className="relative bg-[var(--color-secondary)] text-white overflow-hidden"
+      style={bgImage ? { backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center' } : undefined}
+    >
+      {/* Overlay — darker when no bg image, semi-dark when image is present */}
+      <div className={`absolute inset-0 ${bgImage ? 'bg-black/55' : 'bg-transparent'}`} />
       <div className="relative">
         <div className="absolute top-0 left-0 right-0 h-1 bg-[var(--color-primary)]" />
       </div>
-      <div className="max-w-[var(--max-width-site)] mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20">
+      <div className="relative z-10 max-w-[var(--max-width-site)] mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20">
 
         {/* Breadcrumbs */}
         {breadcrumbs && breadcrumbs.length > 0 && (
