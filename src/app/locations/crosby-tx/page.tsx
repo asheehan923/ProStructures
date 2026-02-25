@@ -110,7 +110,7 @@ export default function CrosbyTXPage() {
             ))}
           </div>
           <p className="mt-6 text-sm text-[var(--color-text-muted)]">
-            Every build includes <Link href="/installation" className="text-[var(--color-primary)] font-bold hover:underline">turnkey installation with concrete slab</Link> — no separate concrete contractor needed.
+            Concrete slab work is available through ProStructures — so if you need it, you can work with one contractor from start to finish instead of coordinating a separate crew. Ask about the option when you get your quote. <Link href="/installation" className="text-[var(--color-primary)] font-bold hover:underline">See how installation works.</Link>
           </p>
         </div>
       </section>
