@@ -6,7 +6,7 @@ import FAQAccordion from '@/components/ui/FAQAccordion'
 export const metadata: Metadata = {
   title: 'Metal Carports Texas | ProStructures — Get a Quote',
   description:
-    'Metal carport styles — Regular, Boxed Eave & Vertical. ProStructures serves all of Texas, handling the concrete slab and installation. Get a free quote.',
+    'Metal carport styles — Regular, Boxed Eave & Vertical. ProStructures serves all of Texas with delivery and installation. Concrete slab work available. Get a free quote.',
 }
 
 const roofStyles = [
@@ -60,7 +60,7 @@ const steps = [
   {
     n: '3',
     title: 'We handle everything else',
-    body: 'Once you approve the order, we schedule delivery and installation. Our crew handles the concrete slab and puts up the structure. You show up to a finished carport, ready to use.',
+    body: 'Once you approve the order, we schedule delivery and installation. Our crew puts up the structure — and if you need a concrete slab, we can handle that too. You show up to a finished carport, ready to use.',
   },
 ]
 
@@ -117,7 +117,7 @@ export default function CarportsPage() {
             A metal carport is one of the fastest ways to protect what you own. Your truck, your RV, your tractor, your boat — everything that sits outside takes a beating from Texas sun, hail, and storms. A steel carport puts a stop to that, and ProStructures builds them across Texas with 11 showrooms to serve you.
           </p>
           <p className="mt-4 text-body text-[var(--color-text)] leading-relaxed">
-            We handle everything: the structure, the installation, and the concrete slab. That means one contractor, one call, and no running around trying to coordinate a concrete crew on your own.
+            We handle the structure and installation — and concrete slab work is available as an option. If you need it, you work with one contractor instead of coordinating a separate concrete crew on your own.
           </p>
         </div>
       </section>
@@ -209,16 +209,16 @@ export default function CarportsPage() {
               </h2>
               <p className="text-[var(--color-text)] leading-relaxed mb-4">
                 When you order a carport from us, you&rsquo;re not buying a kit that shows up on a flatbed and sits in your driveway waiting for you to figure out the next step. We include{' '}
-                <Link href="/installation" className="text-[var(--color-primary)] font-bold hover:underline">turnkey installation with concrete slab</Link>{' '}
-                as part of the process. Our crew pours the slab, sets the anchors, and erects the structure.
+                <Link href="/installation" className="text-[var(--color-primary)] font-bold hover:underline">delivery and installation</Link>{' '}
+                as part of every order. Concrete slab work is also available as an option — if you need it, ask when you get your quote.
               </p>
               <p className="text-[var(--color-text)] leading-relaxed">
-                Most online carport sellers stop at delivery. You end up hiring a concrete contractor separately, scheduling two different crews, and managing the whole job yourself. ProStructures handles it from slab to roof.
+                Most online carport sellers stop at delivery. If you also need a slab, you end up hiring a concrete contractor separately, scheduling two crews, and managing the whole job yourself. ProStructures can handle it all under one roof — your call.
               </p>
             </div>
             <div className="bg-white border border-[var(--color-border)] rounded-[var(--radius-brand-xl)] p-8">
               <h3 className="font-[family-name:var(--font-family-heading)] font-bold text-xl text-[var(--color-text)] mb-5">ProStructures handles it all</h3>
-              {['Site assessment & sizing', 'Custom steel fabrication', 'Concrete slab pour', 'Anchor installation', 'Full structure erection', 'Final inspection walkthrough'].map((item) => (
+              {['Site assessment & sizing', 'Custom steel fabrication', 'Concrete slab pour (optional)', 'Anchor installation', 'Full structure erection', 'Final inspection walkthrough'].map((item) => (
                 <div key={item} className="flex items-center gap-3 py-2.5 border-b border-[var(--color-border)] last:border-0">
                   <svg className="w-5 h-5 text-[var(--color-primary)] shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>

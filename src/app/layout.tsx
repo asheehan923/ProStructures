@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: '%s | ProStructures',
   },
   description:
-    'ProStructures builds custom metal buildings across Texas — carports, garages, barns, and RV covers. We handle the concrete slab too. Get a free quote today.',
+    'ProStructures builds custom metal buildings across Texas — carports, garages, barns, and RV covers. Concrete slab work available. Get a free quote today.',
   metadataBase: new URL('https://prostructures.com'),
   openGraph: {
     siteName: 'ProStructures',

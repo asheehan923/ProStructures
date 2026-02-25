@@ -172,7 +172,7 @@ export default function TexasLocationsPage() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
-              { title: 'Concrete slab available', desc: "You don't have to find a separate foundation contractor before we can start. We handle it." },
+              { title: 'Concrete slab available', desc: "Need a slab? We offer concrete slab work as an option — so you can work with one contractor instead of coordinating a separate crew." },
               { title: 'Fast on custom builds', desc: 'Most competitors make you wait longer for anything beyond a stock size. We move faster.' },
               { title: 'Real showrooms', desc: 'Walk in, ask questions, and see display buildings before committing to anything.' },
               { title: 'Texas-based team', desc: 'We know Texas soil conditions, building codes, and weather. That matters when your building has to last.' },

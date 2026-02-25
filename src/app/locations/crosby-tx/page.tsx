@@ -6,7 +6,7 @@ import FAQAccordion from '@/components/ui/FAQAccordion'
 export const metadata: Metadata = {
   title: 'Metal Buildings Crosby TX | ProStructures Showroom',
   description:
-    'ProStructures in Crosby, TX offers metal buildings for East Houston. Visit our FM 2100 showroom — garages, carports, and turnkey concrete installation.',
+    'ProStructures in Crosby, TX offers metal buildings for East Houston. Visit our FM 2100 showroom — garages, carports, and installation. Concrete slab work available.',
 }
 
 const products = [

@@ -11,11 +11,11 @@ import FAQSection from '@/components/home/FAQSection'
 export const metadata: Metadata = {
   title: 'Metal Buildings, Carports & Garages in Texas — ProStructures',
   description:
-    'ProStructures builds custom metal buildings across Texas — carports, garages, barns, and RV covers. We handle the concrete slab too. Get a free quote today.',
+    'ProStructures builds custom metal buildings across Texas — carports, garages, barns, and RV covers. Concrete slab work available. Get a free quote today.',
   openGraph: {
     title: 'Metal Buildings & Carports in Texas | ProStructures',
     description:
-      'ProStructures builds custom metal buildings across Texas — carports, garages, barns, and RV covers. We handle the concrete slab too. Get a free quote today.',
+      'ProStructures builds custom metal buildings across Texas — carports, garages, barns, and RV covers. Concrete slab work available. Get a free quote today.',
     url: 'https://prostructures.com/',
   },
 }
@@ -29,7 +29,7 @@ const schema = {
       name: 'ProStructures, LLC',
       url: 'https://prostructures.com',
       description:
-        'ProStructures builds custom metal buildings across Texas — carports, garages, barns, and RV covers. We handle the concrete slab too. Get a free quote today.',
+        'ProStructures builds custom metal buildings across Texas — carports, garages, barns, and RV covers. Concrete slab work available. Get a free quote today.',
       telephone: '817-776-2523',
       address: {
         '@type': 'PostalAddress',
@@ -46,7 +46,7 @@ const schema = {
       url: 'https://prostructures.com/',
       name: 'Metal Buildings, Carports & Garages in Texas — ProStructures',
       description:
-        'ProStructures builds custom metal buildings across Texas — carports, garages, barns, and RV covers. We handle the concrete slab too. Get a free quote today.',
+        'ProStructures builds custom metal buildings across Texas — carports, garages, barns, and RV covers. Concrete slab work available. Get a free quote today.',
       isPartOf: { '@id': 'https://prostructures.com/#website' },
     },
     {
