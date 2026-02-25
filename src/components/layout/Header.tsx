@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const nav = [
   {
@@ -34,12 +35,15 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 shrink-0">
-            <span
-              className="font-[family-name:var(--font-family-heading)] text-2xl font-bold text-[var(--color-primary)] uppercase tracking-wide"
-            >
-              ProStructures
-            </span>
+          <Link href="/" className="flex items-center shrink-0">
+            <Image
+              src="/images/prostructures-logo.png"
+              alt="ProStructures — We've Got You Covered"
+              width={220}
+              height={55}
+              priority
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop nav */}
