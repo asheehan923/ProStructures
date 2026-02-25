@@ -32,7 +32,7 @@ export default function Header() {
   return (
     <header className="bg-white border-b border-[var(--color-border)] sticky top-0 z-50 shadow-[var(--shadow-brand-sm)]">
       <div className="max-w-[var(--max-width-site)] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-32">
 
           {/* Logo */}
           <Link href="/" className="flex items-center shrink-0">
@@ -42,7 +42,7 @@ export default function Header() {
               width={220}
               height={55}
               priority
-              className="h-10 w-auto"
+              className="h-20 w-auto"
             />
           </Link>
 
