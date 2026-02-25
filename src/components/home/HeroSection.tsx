@@ -23,7 +23,7 @@ export default function HeroSection() {
       <div className="absolute top-0 left-0 right-0 h-1 bg-[var(--color-primary)] z-10" />
 
       <div className="relative z-10 max-w-[var(--max-width-site)] mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-36 w-full">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl ml-auto text-right">
 
           {/* Eyebrow */}
           <p className="font-[family-name:var(--font-family-heading)] text-[var(--color-primary-300)] text-sm font-bold uppercase tracking-widest mb-4">
@@ -42,7 +42,7 @@ export default function HeroSection() {
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
+          <div className="flex flex-col sm:flex-row gap-4 flex-wrap justify-end">
             <Link
               href="/contact"
               className="inline-block bg-[var(--color-primary)] text-white font-[family-name:var(--font-family-heading)] font-bold text-base uppercase tracking-wider px-8 py-4 rounded-[var(--radius-brand)] hover:bg-[var(--color-primary-700)] transition-colors text-center"
@@ -65,7 +65,7 @@ export default function HeroSection() {
           </div>
 
           {/* Trust bar */}
-          <div className="mt-12 flex flex-wrap gap-6 text-sm text-gray-300">
+          <div className="mt-12 flex flex-wrap gap-6 text-sm text-gray-300 justify-end">
             <span className="flex items-center gap-2">
               <svg className="w-4 h-4 text-[var(--color-primary)]" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
